@@ -1,3 +1,21 @@
+result = 0
+i = 0
+print("Hello:) Write three positive and even numbers, I will add them for you :)\
+Follow the instructions, please")
+while i < 3:
+       x = int(input("Write first number: "))
+       if x >= 0 and x % 2 == 0:
+        result += x
+        
+        
+       else:
+           print("Please write correct positive number")
+           continue
+       i += 1
+print("Result of addition is", result)
+           
+
+
 """addResult = 0
 
 for i in range(4):
@@ -40,19 +58,4 @@ while i < 3:
     i += 1
        """
 
-result = 0
-i = 0
-print("Hello:) Write three positive and even numbers, I will add them for you :)\
-Follow the instructions, please")
-while i < 3:
-       x = int(input("Write first number: "))
-       if x >= 0 and x % 2 == 0:
-        result += x
-        
-        
-       else:
-           print("Please write correct positive number")
-           continue
-       i += 1
-print("Result of addition is", result)
-           
+
